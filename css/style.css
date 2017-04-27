@@ -1,0 +1,99 @@
+/*全局样式*/
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@font-face{
+	font-family:'Devil';
+	src:url('../font/Devil.otf');
+}
+
+body{
+	font-family: Devil;
+	letter-spacing: 2px;
+	background: url(../img/background.png);
+}
+
+a{
+	text-decoration: none;
+}
+
+ ul{
+ 	list-style: none;
+ }
+
+.fl{
+	float: left;
+}
+
+.fr{
+	float: right;
+}
+
+.ta{
+	text-align: center;
+}
+
+/*全局样式结束*/
+
+
+/*Top 顶部样式*/
+nav{
+	padding: 25px 0;
+}
+
+nav a{
+	color: #595959;
+	display: inline-block;
+	font-weight: bold;
+	padding: 0 15px;
+	border-right: 1px dotted #595959;
+}
+
+nav a:hover{
+	color: #22BB66;
+}
+
+/*Top 顶部样式结束*/
+
+/*banner 轮播图样式*/
+.banner{margin:0 auto;position:relative}
+.imgList{height:483px;position:relative}
+.imgList li{position:absolute;left:0;top:0;display:none}
+.imgList li img{width:100%}
+.btnList{position:absolute;right:45%;bottom:5px}
+.btnList li{width:30px;height:20px;line-height:20px;color:#fff;background:#999;margin-right:10px;float:left;text-align:center;border:1px solid #CCC;cursor:pointer}
+.btnList li.current{background:#333}
+.leftBtn,.rightBtn{width:41px;height:69px;position:absolute;top:50%;background:url('../img/icon.png') no-repeat;background-size:100%;display:none;cursor:pointer}
+.leftBtn{left:0;transform:rotateY(180deg)}
+.rightBtn{right:0;background-image:url('../img/icon.png')}
+.banner:hover .leftBtn,.banner:hover .rightBtn{display:block}
+ /*banner 轮播图样式结束*/
+
+ /* main 样式开始 */
+ .main{
+ 	width: 980px;
+ 	margin: 0 auto;
+ }
+
+.diamond{
+	width: 400px;
+	height: 0;
+	margin-bottom: 100px;
+}
+
+ .main-left{
+ 	border-bottom: 600px solid #EBF680B3;
+ 	border-right: 600px solid transparent;
+ 	position: relative;
+ 	margin-left: 5%;
+ }
+
+ .main-right{
+ 	border-top: 600px solid #56ECF0B3;
+ 	border-left: 600px solid transparent;
+ 	position: absolute;
+ 	left: 480px;
+ }
+ /* main 样式结束*/
