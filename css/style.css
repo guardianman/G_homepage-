@@ -13,6 +13,7 @@ body{
 	font-family: Devil;
 	letter-spacing: 2px;
 	background: url(../img/background.png);
+	z-index: -1;
 }
 
 a{
@@ -60,8 +61,7 @@ nav a:hover{
 /*banner 轮播图样式*/
 .banner{margin:0 auto;position:relative}
 .imgList{height:483px;position:relative}
-.imgList li{position:absolute;left:0;top:0;display:none}
-.imgList li img{width:100%}
+.imgList li{position:absolute;left:0;top:0;display:none;width: 100%;}
 .btnList{position:absolute;right:45%;bottom:5px}
 .btnList li{width:30px;height:20px;line-height:20px;color:#fff;background:#999;margin-right:10px;float:left;text-align:center;border:1px solid #CCC;cursor:pointer}
 .btnList li.current{background:#333}
@@ -84,14 +84,14 @@ nav a:hover{
 }
 
  .main-left{
- 	border-bottom: 600px solid #EBF680B3;
+ 	border-bottom: 600px solid #EBF680;
  	border-right: 600px solid transparent;
  	position: relative;
  	margin-left: 5%;
  }
 
  .main-right{
- 	border-top: 600px solid #56ECF0B3;
+ 	border-top: 600px solid #56ECF0;
  	border-left: 600px solid transparent;
  	position: absolute;
  	left: 480px;
