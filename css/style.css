@@ -59,9 +59,15 @@ nav a:hover{
 /*Top 顶部样式结束*/
 
 /*banner 轮播图样式*/
-.banner{margin:0 auto;position:relative}
-.imgList{height:483px;position:relative}
+.banner{
+	background: -webkit-radial-gradient(rgba(12, 12, 12, 0.49), rgba(2, 2, 2, 0.84)); /* Safari 5.1 - 6.0 */
+	background: -o-radial-gradient(rgba(12, 12, 12, 0.49), rgba(2, 2, 2, 0.84)); /* Opera 11.6 - 12.0 */
+	background: -moz-radial-gradient(rergba(12, 12, 12, 0.49)d, rgba(2, 2, 2, 0.84)); /* Firefox 3.6 - 15 */
+	background: radial-gradient(rgba(12, 12, 12, 0.49), rgba(2, 2, 2, 0.84)); /* 标准的语法（必须放在最后） */
+	margin:0 auto;position:relative}
+.imgList{height:483px;text-align: center; position:relative}
 .imgList li{position:absolute;left:0;top:0;display:none;width: 100%;}
+.banner1{padding:189px;}
 .btnList{position:absolute;right:45%;bottom:5px}
 .btnList li{width:30px;height:20px;line-height:20px;color:#fff;background:#999;margin-right:10px;float:left;text-align:center;border:1px solid #CCC;cursor:pointer}
 .btnList li.current{background:#333}
