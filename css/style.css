@@ -24,6 +24,10 @@ a{
  	list-style: none;
  }
 
+ .ma{
+ 	margin:0 auto;
+ }
+
 .fl{
 	float: left;
 }
@@ -58,16 +62,18 @@ nav a:hover{
 
 /*Top 顶部样式结束*/
 
-/*banner 轮播图样式*/
-.banner{
-	background: -webkit-radial-gradient(rgba(12, 12, 12, 0.49), rgba(2, 2, 2, 0.84)); /* Safari 5.1 - 6.0 */
-	background: -o-radial-gradient(rgba(12, 12, 12, 0.49), rgba(2, 2, 2, 0.84)); /* Opera 11.6 - 12.0 */
-	background: -moz-radial-gradient(rergba(12, 12, 12, 0.49)d, rgba(2, 2, 2, 0.84)); /* Firefox 3.6 - 15 */
-	background: radial-gradient(rgba(12, 12, 12, 0.49), rgba(2, 2, 2, 0.84)); /* 标准的语法（必须放在最后） */
-	margin:0 auto;position:relative}
+/*banner 轮播样式*/
+.banner{color: #fff;background: -webkit-radial-gradient(rgba(12, 12, 12, 0.49), rgba(2, 2, 2, 0.84)); /* Safari 5.1 - 6.0 */background: -o-radial-gradient(rgba(12, 12, 12, 0.49), rgba(2, 2, 2, 0.84)); /* Opera 11.6 - 12.0 */background: -moz-radial-gradient(rgba(12, 12, 12, 0.49), rgba(2, 2, 2, 0.84)); /* Firefox 3.6 - 15 */background: radial-gradient(rgba(12, 12, 12, 0.49), rgba(2, 2, 2, 0.84)); /* 标准的语法（必须放在最后） */margin:0 auto;position:relative}
 .imgList{height:483px;text-align: center; position:relative}
 .imgList li{position:absolute;left:0;top:0;display:none;width: 100%;}
-.banner1{padding:189px;}
+.banner h3{font-family: "宋体";font-size: 30px;font-weight: 400;padding: 10px 0;}
+.banner a{display: inline-block;color: #fff;padding: 15px 50px;background: #22BB66;border-radius: 5px;margin-top: 50px;}
+.banner span{display:none;padding-top:20px;color:#fff; width:50%;}
+.banner a:hover+span{display:block;}
+.banner1{padding:139px 0;}
+.banner2{padding:95px 0;}
+.banner3{padding:95px 0; width: 50%; margin: 0 auto;}
+.banner4{padding:139px 0;}
 .btnList{position:absolute;right:45%;bottom:5px}
 .btnList li{width:30px;height:20px;line-height:20px;color:#fff;background:#999;margin-right:10px;float:left;text-align:center;border:1px solid #CCC;cursor:pointer}
 .btnList li.current{background:#333}
@@ -75,7 +81,7 @@ nav a:hover{
 .leftBtn{left:0;transform:rotateY(180deg)}
 .rightBtn{right:0;background-image:url('../img/icon.png')}
 .banner:hover .leftBtn,.banner:hover .rightBtn{display:block}
- /*banner 轮播图样式结束*/
+ /*banner 轮播样式结束*/
 
  /* main 样式开始 */
  .main{
