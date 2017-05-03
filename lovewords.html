@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+	<title>显示什么就评论什么</title>
+	<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<style type="text/css" rel="stylesheet">
+		@media screen and (min-width:320px){.zhong{font-size:15px;}}
+		@media screen and (min-width:360px){.zhong{font-size:17px;}}
+		@media screen and (min-width:375px){.zhong{font-size:17px;}}
+		@media screen and (min-width:380px){.zhong{font-size:19px;}}
+		@media screen and (min-width:480px){.zhong{font-size:21px;}}
+		@media screen and (min-width:640px){.zhong{font-size:30px;}}
+		.zhong{
+			overflow: hidden;
+			width: 100%;
+			max-width: 640px;
+			min-width: 320px;
+			margin: 0 auto;
+			text-align: center;
+			color: #fff;
+			background: -webkit-radial-gradient(rgba(12, 12, 12, 0.49), rgba(2, 2, 2, 0.84));
+			/* Safari 5.1 - 6.0*/
+			background: -o-radial-gradient(rgba(12, 12, 12, 0.49), rgba(2, 2, 2, 0.84));
+			/* Opera 11.6 - 12.0*/
+			background: -moz-radial-gradient(rgba(12, 12, 12, 0.49), rgba(2, 2, 2, 0.84));
+			/* Firefox 3.6 - 15*/
+			background: radial-gradient(rgba(12, 12, 12, 0.49), rgba(2, 2, 2, 0.84));
+			/* 标准的语法（必须放在最后）*/
+		}
+		.nr{
+			padding: 20em 0;
+			font-family: "宋体";
+		}
+		span{
+			font-family: "Centaur";
+		}
+	</style>
+
+	<script>
+		$(document).ready(function() {     
+		   //x上限，y下限     
+		    var x = 10;     
+		    var y = 1;     
+		    var rand = parseInt(Math.random() * (x - y + 1) + y);    
+		  	switch(rand){
+		  		case 1:
+		  			$(".nr").html("<span>Meeting you was fate,and falling in love with you was out of my control.</span> <br/>遇见你是命运的安排而爱上你是我情不自禁。").css("padding","10em 0");
+		  			break;
+		  		case 2:
+		  			$(".nr").html("<span>There are two reasons why I wake up in the morning: my alarm clock and you. </span> <br/><br/>我早上愿意醒来为两个理由: 闹钟和你。").css("padding","10em 0");
+		  			break;
+		  		case 3:
+		  			$(".nr").html("<span>You are everything to me, and I was so blessed when god sent you here for me </span> <br/><br/>你是我的一切,我是如此幸运上帝让你来到我身边。").css("padding","10em 0");
+		  			break;
+		  		case 4:
+		  			$(".nr").html("<span>If I could rearrange the alphabet,I'd put Y and I together. </span> <br/><br/>如果我能重新来排列字母,我要把Y(你)跟I(我)在一起。").css("padding","10em 0");
+		  			break;
+		  		case 5:
+		  			$(".nr").html("<span> Love you so I don`t wanna go to sleep, for reality is better than a dream. </span> <br/><br/>爱你，所以不想入睡，因为真实比梦境还要美丽。").css("padding","10em 0");
+		  			break;
+		  		case 6:
+		  			$(".nr").html("<span>I know you like this song most and I know what you are thinking about ,too, I miss you</span> <br/><br/>我知道你最喜欢这首歌，我也知道你的心思，我想你。").css("padding","10em 0");
+		  			break;
+		  		case 7:
+		  			$(".nr").html("<span>Meeting you was fate,and falling in love with you was out of my control.</span> <br/><br/>遇见你是命运的安排而爱上你是我情不自禁。").css("padding","10em 0");
+		  			break;
+		  		case 8:
+		  			$(".nr").html("<span>There are two reasons why I wake up in the morning: my alarm clock and you. </span> <br/><br/>我早上愿意醒来为两个理由: 闹钟和你。").css("padding","10em 0");
+		  			break;
+		  		case 9:
+		  			$(".nr").html("<span>Meeting you was fate,and falling in love with you was out of my control.</span> <br/><br/>遇见你是命运的安排而爱上你是我情不自禁。").css("padding","10em 0");
+		  			break;
+		  		case 10:
+		  			$(".nr").html("<span>You are everything when you are with me, and everything is you when you are not</span> <br/><br/>你在时你是一切，你不在时一切是你").css("padding","10em 0");
+		  			break;
+		  	}     
+		})   
+	</script>
+
+</head>
+<body>
+	<div class="zhong">
+		<p class="nr"></p>
+	</div>
+</body>
+</html>

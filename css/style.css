@@ -63,7 +63,19 @@ nav a:hover{
 /*Top 顶部样式结束*/
 
 /*banner 轮播样式*/
-.banner{color: #fff;background: -webkit-radial-gradient(rgba(12, 12, 12, 0.49), rgba(2, 2, 2, 0.84)); /* Safari 5.1 - 6.0 */background: -o-radial-gradient(rgba(12, 12, 12, 0.49), rgba(2, 2, 2, 0.84)); /* Opera 11.6 - 12.0 */background: -moz-radial-gradient(rgba(12, 12, 12, 0.49), rgba(2, 2, 2, 0.84)); /* Firefox 3.6 - 15 */background: radial-gradient(rgba(12, 12, 12, 0.49), rgba(2, 2, 2, 0.84)); /* 标准的语法（必须放在最后） */margin:0 auto;position:relative}
+.banner {
+	color: #fff;
+	background: -webkit-radial-gradient(rgba(12, 12, 12, 0.49), rgba(2, 2, 2, 0.84));
+	/* Safari 5.1 - 6.0*/
+	background: -o-radial-gradient(rgba(12, 12, 12, 0.49), rgba(2, 2, 2, 0.84));
+	/* Opera 11.6 - 12.0*/
+	background: -moz-radial-gradient(rgba(12, 12, 12, 0.49), rgba(2, 2, 2, 0.84));
+	/* Firefox 3.6 - 15*/
+	background: radial-gradient(rgba(12, 12, 12, 0.49), rgba(2, 2, 2, 0.84));
+	/* 标准的语法（必须放在最后）*/
+	margin:0 auto;
+	position:relative
+}
 .imgList{height:483px;text-align: center; position:relative}
 .imgList li{position:absolute;left:0;top:0;display:none;width: 100%;}
 .banner h3{font-family: "宋体";font-size: 30px;font-weight: 400;padding: 10px 0;}
