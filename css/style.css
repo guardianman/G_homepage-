@@ -84,15 +84,10 @@ nav a:hover{
  /*banner 轮播样式结束*/
 
  /* main 样式开始 */
- .main{
- 	width: 980px;
- 	margin: 0 auto;
- }
-
 .diamond{
 	width: 400px;
 	height: 0;
-	margin-bottom: 100px;
+	z-index: -1;
 }
 
  .main-left{
@@ -107,5 +102,6 @@ nav a:hover{
  	border-left: 600px solid transparent;
  	position: absolute;
  	left: 480px;
+ 	top:551px;
  }
  /* main 样式结束*/
