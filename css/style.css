@@ -78,8 +78,8 @@ nav a:hover{
 .btnList li{width:30px;height:20px;line-height:20px;color:#fff;background:#999;margin-right:10px;float:left;text-align:center;border:1px solid #CCC;cursor:pointer}
 .btnList li.current{background:#333}
 .leftBtn,.rightBtn{width:41px;height:69px;position:absolute;top:50%;background:url('../img/icon.png') no-repeat;background-size:100%;display:none;cursor:pointer}
-.leftBtn{left:0;transform:rotateY(180deg)}
-.rightBtn{right:0;background-image:url('../img/icon.png')}
+.leftBtn{left:200px;transform:rotateY(180deg)}
+.rightBtn{right:200px;background-image:url('../img/icon.png')}
 .banner:hover .leftBtn,.banner:hover .rightBtn{display:block}
  /*banner 轮播样式结束*/
 
