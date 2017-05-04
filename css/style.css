@@ -99,21 +99,55 @@ nav a:hover{
 .diamond{
 	width: 400px;
 	height: 0;
-	z-index: -1;
+	z-index: -2;
 }
 
- .main-left{
- 	border-bottom: 600px solid #EBF680;
- 	border-right: 600px solid transparent;
- 	position: relative;
- 	margin-left: 5%;
- }
+.main-left{
+	border-bottom: 600px solid #EBF680;
+	border-right: 600px solid transparent;
+	margin-left: 5%;
+}
 
- .main-right{
- 	border-top: 600px solid #56ECF0;
- 	border-left: 600px solid transparent;
- 	position: absolute;
- 	left: 480px;
- 	top:551px;
- }
- /* main 样式结束*/
+.main-right{
+	border-top: 600px solid #56ECF0;
+	border-left: 600px solid transparent;
+	position: absolute;
+	left: 480px;
+	top:551px;
+}
+
+#main{
+	width: 980px;
+	position: relative;
+}
+
+.dome{
+	margin-top: 50px;
+}
+
+.fen{
+	width: 280px;
+	padding:100px 0px;
+	margin-right: 45px;
+	background: #808080;
+}
+
+.fen span{
+	padding: 17px 9px;
+	border:1px solid #FFF;
+}
+
+.fen a{
+	padding: 10px 35px;
+	background: #FFF;
+	color: #000;
+}
+
+.fen:hover a{
+	background: #2b6;
+	color: #fff;
+}
+
+.fen:hover span{
+	border-color: #2b6;
+} 
