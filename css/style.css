@@ -96,26 +96,6 @@ nav a:hover{
  /*banner 轮播样式结束*/
 
  /* main 样式开始 */
-.diamond{
-	width: 400px;
-	height: 0;
-	z-index: -2;
-}
-
-.main-left{
-	border-bottom: 600px solid #EBF680;
-	border-right: 600px solid transparent;
-	margin-left: 5%;
-}
-
-.main-right{
-	border-top: 600px solid #56ECF0;
-	border-left: 600px solid transparent;
-	position: absolute;
-	left: 480px;
-	top:551px;
-}
-
 #main{
 	width: 980px;
 	position: relative;
