@@ -118,8 +118,8 @@ nav a:hover,p span:hover{
 .fen{
 	width: 280px;
 	padding:100px 0px;
-	margin-right: 45px;
 	background: #808080;
+	border: 5px solid #fff;
 }
 
 .fen span{
@@ -141,3 +141,7 @@ nav a:hover,p span:hover{
 .fen:hover span{
 	border-color: #2b6;
 } 
+
+.date{
+	width: 600px;
+}
