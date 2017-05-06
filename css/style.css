@@ -10,7 +10,7 @@
 }
 
 body{
-	font-family: Devil;
+	font-family: Devil,'宋体';
 	letter-spacing: 2px;
 	background: url(../img/background.png);
 	z-index: -1;
@@ -56,9 +56,19 @@ nav a{
 	border-right: 1px dotted #595959;
 }
 
-nav a:hover{
+nav a:hover,p span:hover{
 	color: #22BB66;
 }
+
+.self{
+	padding: 100px 0;
+}
+
+.self p{
+	font-size: 42px;
+	font-weight: 100;
+}
+
 
 /*Top 顶部样式结束*/
 
