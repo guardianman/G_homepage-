@@ -161,5 +161,31 @@ nav a:hover,p span:hover{
 }
 
 .content-footer{
+	font-size: 14px;
+	padding: 20px 0;
+	background: #F9F9F9;
+	color: #666;
+}
 
+.content-footer .tim{
+	margin-left: 50px;
+	padding: 10px 20px;
+	border: 1px solid #e0e0e0;
+}
+
+.content-footer .follow{
+	background: url("../img/sprit.png");
+}
+
+.content-footer .follow i{
+	width: 24px;
+	height: 24px;
+}
+
+.content-footer .follow .wx{
+	background-position: 0 -33px;
+}
+
+.content-footer .follow .wx:hover{
+	background-position: 0 0;
 }
