@@ -162,7 +162,6 @@ nav a:hover,p span:hover{
 
 .content-footer{
 	font-size: 14px;
-	padding: 20px 0;
 	background: #F9F9F9;
 	color: #666;
 }
@@ -173,19 +172,47 @@ nav a:hover,p span:hover{
 	border: 1px solid #e0e0e0;
 }
 
-.content-footer .follow{
-	background: url("../img/sprit.png");
+.content-footer .land{
+	width: 100px;
 }
 
-.content-footer .follow i{
+.content-footer .land i{
 	width: 24px;
 	height: 24px;
+	background: url("../img/sprite.png");
 }
 
-.content-footer .follow .wx{
-	background-position: 0 -33px;
+.content-footer .land .wx{
+	background-position:0 -33px;
+	padding-right:10px;
+
 }
 
-.content-footer .follow .wx:hover{
-	background-position: 0 0;
+.content-footer .land .wx:hover{
+	background-position:0 0;
+	cursor:pointer;
+}
+
+.content-footer .land .qq{
+	background-position:-76px -33px;
+}
+
+.content-footer .land .qq:hover{
+	background-position:-75px 0;
+	cursor:pointer;
+}
+
+.content-footer .land .wb{
+	background-position:-40px -32px;
+}
+
+.content-footer .land .wb:hover{
+	background-position: -40px 0;
+	cursor: pointer;
+}
+
+.content-footer .move{
+	margin-right: 50px;
+	padding: 10px 20px;
+	border: 1px solid #e0e0e0;
 }
