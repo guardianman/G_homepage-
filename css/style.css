@@ -155,7 +155,7 @@ nav a:hover,p span:hover{
 }
 
 .content-middle{
-	padding: 40px 0;
+	padding: 50px 0;
 	background:#fff;
 
 }
@@ -167,14 +167,23 @@ nav a:hover,p span:hover{
 }
 
 .content-footer .tim{
+	margin: 20px 0;
 	margin-left: 50px;
 	padding: 10px 20px;
 	border: 1px solid #e0e0e0;
 }
 
+.content-footer .tim:hover,.content-footer .move:hover{
+	color: #2b6;
+	border-color: #2b6;
+}
+
 .content-footer .land{
 	width: 100px;
+	margin: 28px 0;
+	margin-left: 50px;
 }
+
 
 .content-footer .land i{
 	width: 24px;
@@ -212,6 +221,7 @@ nav a:hover,p span:hover{
 }
 
 .content-footer .move{
+	margin: 20px 0;
 	margin-right: 50px;
 	padding: 10px 20px;
 	border: 1px solid #e0e0e0;
