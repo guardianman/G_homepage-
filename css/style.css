@@ -3,6 +3,7 @@
 @font-face{font-family:'Devil';src:url('../font/Devil.otf')}
 body{font-family:Helvetica,'宋体';letter-spacing:2px;background:url(../img/background.png);z-index:-1}
 a{text-decoration:none}
+a.ge{display:inline-block;padding:5px 10px;border:1px solid #2b6;border-radius:5px}
 ul{list-style:none}
 i{background:url("../img/sprite.png")}
 .ma{margin:0 auto}
@@ -74,13 +75,17 @@ nav a:hover,p span:hover{color:#2b6}
 .content-footer{font-size:14px;background:#f9f9f9;color:#666}
 .content-footer .tim{margin:20px 0;margin-left:50px;padding:10px 20px;border:1px solid #e0e0e0}
 .content-footer .tim:hover,.content-footer .move:hover{color:#2b6;border-color:#2b6}
-.content-footer .land{width:95px;margin:28px 0;margin-left:50px}
-.content-footer .land i{width:24px;height:24px}
-.content-footer .land .wx{background-position:0 -33px;padding-right:10px}
-.content-footer .land .wx:hover{background-position:0 0;cursor:pointer}
-.content-footer .land .qq{width:25px;background-position:-76px -33px}
-.content-footer .land .qq:hover{background-position:-75px 0;cursor:pointer}
-.content-footer .land .wb{background-position:-40px -32px}
-.content-footer .land .wb:hover{background-position:-40px 0;cursor:pointer}
+.land{width:95px;margin:28px 0;margin-left:50px}
+.land i{width:24px;height:24px}
+.land .wx{background-position:0 -33px;padding-right:10px}
+.land .wx:hover{background-position:0 0;cursor:pointer}
+.land .qq{width:25px;background-position:-76px -33px}
+.land .qq:hover{background-position:-75px 0;cursor:pointer}
+.land .wb{background-position:-40px -32px}
+.land .wb:hover{background-position:-40px 0;cursor:pointer}
 .content-footer .move{margin:20px 0;margin-right:50px;padding:10px 20px;border:1px solid #e0e0e0}
-.content-right{height:400px;background:#808080;border:30px solid #fff;margin:80px 0}
+.Aux-right{width:350px;}
+.Aux-im{width:80%;height:400px;background:#808080;border:29px solid #fff;margin:80px 0;}
+.Aux-fol{width:100%;background:#FFF;}
+.Aux-fol a{color:#999;margin-left:125px;margin-top:20px;border:1px solid #999;}
+.Aux-fol p{padding: 40px 20px 40px 60px;} 
