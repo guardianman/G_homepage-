@@ -11,8 +11,6 @@ i{background:url("../img/sprite.png")}
 .fr{float:right}
 .ta{text-align:center}
 .yun:hover{box-shadow:0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
-.lw{width:600px}
-.rw{width:260px}
 /*全局样式结束*/
 
 
@@ -65,16 +63,17 @@ nav a:hover,p span:hover{color:#2b6}
 .fen a{padding:10px 35px;background:#FFF;color:#000}
 .fen:hover a{background:#2b6;color:#fff}
 .fen:hover span{border-color:#2b6}
-.content-left{border:1px solid #e0e0e0;margin:80px 0}
-.content-top{width:100%;height:400px;background:#808080}
-.content-middle{height:100px;padding:30px 0;background:#fff}
-.content-middle a{color:#2b6;font-weight:400;display:inline-block;padding:5px 10px;border:1px solid #2b6;border-radius:5px}
-.content-middle a:nth-child(1){margin-left:200px}
-.content-middle a:nth-child(2){margin-left:20px}
+.Tru{width:600px;margin:80px 0;}
+.Tru>div{margin-bottom: 50px;border: 1px solid #e0e0e0;}
+.Tru-top{width:100%;height:400px;background:#808080}
+.Tru-middle{width:100%;height:100px;padding:30px 0;background:#fff}
+.Tru-middle a{color:#2b6;font-weight:400;display:inline-block;padding:5px 10px;border:1px solid #2b6;border-radius:5px}
+.Tru-middle a:nth-child(1){margin-left:200px}
+.Tru-middle a:nth-child(2){margin-left:20px}
 .ff{height:10px;width:10px;background-position:0 -73px}
-.content-footer{font-size:14px;background:#f9f9f9;color:#666}
-.content-footer .tim{margin:20px 0;margin-left:50px;padding:10px 20px;border:1px solid #e0e0e0}
-.content-footer .tim:hover,.content-footer .move:hover{color:#2b6;border-color:#2b6}
+.Tru-footer{width:100%;height:100px;font-size:14px;background:#f9f9f9;color:#666;}
+.Tru-footer .tim{margin:20px 0;margin-left:50px;padding:10px 20px;border:1px solid #e0e0e0}
+.Tru-footer .tim:hover,.Tru-footer .move:hover{color:#2b6;border-color:#2b6}
 .land{width:95px;margin:28px 0;margin-left:50px}
 .land i{width:24px;height:24px}
 .land .wx{background-position:0 -33px;padding-right:10px}
@@ -83,9 +82,9 @@ nav a:hover,p span:hover{color:#2b6}
 .land .qq:hover{background-position:-75px 0;cursor:pointer}
 .land .wb{background-position:-40px -32px}
 .land .wb:hover{background-position:-40px 0;cursor:pointer}
-.content-footer .move{margin:20px 0;margin-right:50px;padding:10px 20px;border:1px solid #e0e0e0}
-.Aux-right{width:350px;}
+.Tru-footer .move{margin:20px 0;margin-right:50px;padding:10px 20px;border:1px solid #e0e0e0}
+.Aux{width:350px;}
 .Aux-im{width:80%;height:400px;background:#808080;border:29px solid #fff;margin:80px 0;}
-.Aux-fol{width:100%;background:#FFF;}
+.Aux-fol{width:100%;background:#FFF;border:1px solid #e0e0e0;}
 .Aux-fol a{color:#999;margin-left:125px;margin-top:20px;border:1px solid #999;}
 .Aux-fol p{padding: 40px 20px 40px 60px;} 
