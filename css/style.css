@@ -90,6 +90,6 @@ nav a:hover,p span:hover{color:#2b6}
 .Aux-fol p{padding: 40px 20px 40px 60px;}
 
 /*footer 样式开始*/
-#footer{width:100%;height:200px;background:#808080;}
-#footer ul{display: inline-block;width:290px;margin-right:20px;color: #fff;}
-#footer .argyf{width: }
+.fnd{width:100%;height:200px;background:#808080;}
+.fnd ul{display: inline-block;width:290px;margin-right:20px;color: #fff;}
+#footer{width:100%;padding:25px 0;text-align:center;font-weight:500;}
