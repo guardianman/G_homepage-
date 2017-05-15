@@ -1,7 +1,7 @@
 /*全局样式*/
 *{padding:0;margin:0}
 @font-face{font-family:'Devil';src:url('../font/Devil.otf')}
-body{font-family:Helvetica,'宋体';letter-spacing:2px;background:url(../img/background.png);z-index:-1}
+body{font-family:Helvetica,'宋体';letter-spacing:2px;background:url(../img/background.png);z-index:-1;position:relative;	}
 a{text-decoration:none}
 a.ge{display:inline-block;padding:5px 10px;border:1px solid #2b6;border-radius:5px}
 ul{list-style:none}
@@ -56,7 +56,7 @@ nav a:hover,p span:hover{color:#2b6}
  /*banner 轮播样式结束*/
 
  /* main 样式开始 */
-#main{width:980px;position:relative}
+#main{width:980px;padding-bottom: 200px;clear: both;}
 .dome{margin-top:50px}
 .fen{width:280px;padding:100px 0;background:#808080;border:5px solid #fff}
 .fen span{padding:17px 9px;border:1px solid #FFF}
@@ -87,4 +87,9 @@ nav a:hover,p span:hover{color:#2b6}
 .Aux-im{width:80%;height:400px;background:#808080;border:29px solid #fff;margin:80px 0;}
 .Aux-fol{width:100%;background:#FFF;border:1px solid #e0e0e0;}
 .Aux-fol a{color:#999;margin-left:125px;margin-top:20px;border:1px solid #999;}
-.Aux-fol p{padding: 40px 20px 40px 60px;} 
+.Aux-fol p{padding: 40px 20px 40px 60px;}
+
+/*footer 样式开始*/
+#footer{width:100%;height:200px;background:#808080;}
+#footer ul{display: inline-block;width:290px;margin-right:20px;color: #fff;}
+#footer .argyf{width: }
