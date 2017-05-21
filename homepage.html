@@ -94,7 +94,7 @@
 					<a href="javascript:;" class="fl yun">TRAVEL</a>
 				</div>
 				<div class="Tru-footer">
-					<div class="tim fl ta">May 07.2017</div>
+					<div class="tim fl ta"></div>
 					<div class="land fl">
 		               <i class="wx fl"></i>
 		               <i class="qq fl"></i>
@@ -113,7 +113,7 @@
 					<a href="javascript:;" class="fl yun">TRAVEL</a>
 				</div>
 				<div class="Tru-footer">
-					<div class="tim fl ta">May 07.2017</div>
+					<div class="tim fl ta"></div>
 					<div class="land fl">
 		               <i class="wx fl"></i>
 		               <i class="qq fl"></i>
@@ -132,7 +132,7 @@
 					<a href="javascript:;" class="fl yun">TRAVEL</a>
 				</div>
 				<div class="Tru-footer">
-					<div class="tim fl ta">May 07.2017</div>
+					<div class="tim fl ta"></div>
 					<div class="land fl">
 		               <i class="wx fl"></i>
 		               <i class="qq fl"></i>
@@ -163,7 +163,7 @@
 			<div class="fr yun Aux-fol">
 				<a href="javascript:;" class="fl">SHARE ON</a>
 				<input type="email" placeholder="E-mail address">
-				<a href="javascript:;" class="yun">SUBSCIBE</a>
+				<a href="javascript:;" class="yun sub">SUBSCIBE</a>
 			</div>
 		</div>
 		<!-- 右侧统一 End -->
@@ -209,5 +209,56 @@
 	<!-- footer End  -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/none.js"></script>
+	<!-- 获取时间 -->
+	<script>
+		$(function(){
+			// 获取时间
+			var dTime = new Date();
+			var dYear = dTime.getFullYear();
+			var dMon = dTime.getMonth();
+			var dDay = dTime.getDate();
+			// 调整月份显示为英文缩写
+			switch(dMon){
+				case 0:
+					var dMon = "Jan";
+					break;
+				case 1:
+					var dMon = "Feb.";
+					break;
+				case 2:
+					var dMon = "Mar.";
+					break;
+				case 3:
+					var dMon = "Apr.";
+					break;
+				case 4:
+					var dMon = "May.";
+					break;
+				case 5:
+					var dMon = "Jun.";
+					break;
+				case 6:
+					var dMon = "Jul.";
+					break;
+				case 7:
+					var dMon = "Aug.";
+					break;
+				case 8:
+					var dMon = "Sep.";
+					break;
+				case 9:
+					var dMon = "Oct.";
+					break;
+				case 10:
+					var dMon = "Nov.";
+					break;
+				case 11:
+					var dMon = "Dec.";
+					break;	
+			}
+			// 设置文本显示为特定内容
+			$(".tim").text(dMon+dDay+"."+dYear);
+		});
+	</script>
 </body>
 </html>
